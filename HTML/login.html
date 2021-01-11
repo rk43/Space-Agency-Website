@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <h2>IAST Login</h2>
+  <script src="javascript/js.js="></script>
+<script src="javascript/login.js"></script> 
+</head>
+<body>
+<style>
+h2{
+  text-align: center;
+color:blue;
+}
+input[type=text],input[type=password] {
+  width: 40%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=button]{
+  width: 40%;
+  background-color: green;
+  color: white;
+  padding: 10px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+div{
+  text-align: center;
+  margin: 30px;
+  border-radius: 5px;
+  background-color: lightgray;
+  padding: 20px;
+}
+input[type=button]:hover{
+  background-color: blue;
+}
+</style>
+<div>
+    <form id="form_id" method="post" name="myform">
+      <strong>User Name :</strong></br>
+      <input type="text" name="username" id="username" placeholder="username..." required/></br>
+ 
+       <strong>Password :</strong></br>
+      <input type="password" name="password" id="password" placeholder="password..." required/></br>
+ 
+      <input type="button" value="Login" id="submit" onclick="validate()"/><br>
+    </form>
+   </div>
+</body>
+</html>

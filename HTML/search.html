@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>indian academy of space technology</title>
+  <style type="text/css">
+    body{
+      width: 70%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  </style>
+  <script type="text/javascript">
+    function myFunction() {
+    
+    var input, filter, ul, li, a, i;
+    input = document.getElementById('myInput');
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("myUL");
+    li = ul.getElementsByTagName('li');
+
+    for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+        if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+        }
+    }
+}
+  </script>
+  <style type="text/css">
+    #myInput {
+    background-image: url('/css/searchicon.png'); 
+    background-position: 10px 12px;
+    background-repeat: no-repeat; 
+    width: 100%; 
+    font-size: 16px; 
+    padding: 12px 20px 12px 40px; 
+    border: 1px solid #ddd; 
+    margin-bottom: 12px; 
+}
+
+#myUL {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#myUL li a {
+    border: 1px solid gray; 
+    margin-top: -1px; 
+    background-color: lightgray; 
+    padding: 12px; 
+    text-decoration: none; 
+    font-size: 18px; 
+    color: black; 
+    display: block; 
+}
+
+#myUL li a.header {
+    background-color: gray; 
+    cursor: default; 
+}
+
+#myUL li a:hover:not(.header) {
+    background-color: lightblue; 
+}
+  </style>
+</head>
+<body>
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search .....">
+
+<ul id="myUL">
+  <li><a href="#" class="header">A</a></li>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="space.html">Department</a></li>
+
+  <li><a href="#" class="header">B</a></li>
+  <li><a href="remote.html">Training</a></li>
+  <li><a href="ug.html">Admission</a></li>
+
+  <li><a href="#" class="header">C</a></li>
+  <li><a href="login.html">Login</a></li>
+  <li><a href="notice.html">Circular</a></li>
+  <li><a href="fee.html">Fee Structure</a></li>
+</ul>
+</body>
+</html>

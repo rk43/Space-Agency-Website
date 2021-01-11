@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="author" content="Ravi">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<script src="javascript/js.js"></script>
+</head>
+<body style="background-color:white;">
+<h1>Indian Academy of Space Technology</h1>
+<h4>An autonomous academy Under Department of Space , Govt.of India</h4>
+<img src="./images/emb.png" width="220" height="100">
+<img src="./images/iastlogo.jpg" width="220" height="100">
+<div class="navbar">
+  <a href="index.html">HOME</a>
+  <a href="about.html">ABOUT</a>
+  <div class="dropdown">
+    <button class="dropbtn">ACADEMIC
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+        <a href="up.html">Academic Programmes</a>
+        <a href="calendar.html">Calendar</a>
+        <a href="rules.html">Rule & Regulations</a>
+        <a href="timetable.html">Timetable</a>
+        <a href="notic.html">Notice/Circulars</a>
+        <a href="up.html">Convocation</a>
+      </div>
+      </div>
+  <div class="dropdown">
+    <button class="dropbtn">ADMISSION
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+          <a href="ug.html">Undergraduate</a>
+          <a href="pg.html">Postgraduate</a>
+          <a href="phd.html">PhD</a>
+          <a href="eligibility.html">Eligibility</a>
+          <a href="exam.html">Entrance Exam</a>
+          <a href="air.html">Through All India Recruitment</a> 
+          <a href="fee.html">Fee Structure</a> 
+        </div>
+        </div>
+  <div class="dropdown">
+    <button class="dropbtn">DEPARTMENT
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">  
+        <a href="space.html">Space Technology</a>
+        <a href="maintenance.html">Maintenance</a>
+        <a href="manufac.html">Manufacturing</a>
+        <a href="avionic.html">Avionics</a>
+        <a href="phy.html">Physics</a>
+        <a href="up.html">Chemistry</a>
+        <a href="up.html">Aerodynemics Design</a>
+         <a href="math.html">Mathematics</a>
+      </div>
+      </div>
+   <div class="dropdown">
+    <button class="dropbtn">TRAINNING
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">  
+        <a href="remote.html">Remote Sensing</a>
+        <a href="radar.html">Radars</a>
+        <a href="imgp.html">Image Processing</a>
+        <a href="up.html">Digital System</a>
+        <a href="planet.html">Planetry&space Atmosphere Science</a>
+        <a href="geo.html">Geo-informatics</a>
+        <a href="up.html">Global Positioning System for Natural Resource</a>
+      </div>
+      </div>
+
+    <div class="dropdown">
+    <button class="dropbtn">CAREER
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">  
+        <a href="up.html">Managing Director</a>
+        <a href="up.html">Research Scientist</a>
+        <a href="up.html">Junior Scientist</a>
+        <a href="up.html">Programme Assistant</a>
+        <a href="up.html">Technical Assistant</a>
+        <a href="up.html">Technician</a>
+        <a href="up.html">Administrative Officer</a>
+        <a href="up.html">Medical Officer</a>
+        <a href="up.html">Sub Officer</a>
+      </div>
+      </div>
+     <div class="dropdown">
+    <button class="dropbtn">FACILITIES
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">  
+        <a href="hostel.html">Hostel</a>
+        <a href="library.html">Library</a>
+        <a href="conf.html">Conference</a>
+        <a href="up.html">Sports And Fitness</a>
+        <a href="up.html">Essential Services </a>
+        <a href="up.html">Computer Services</a>
+        <a href="up.html">Medical Support </a>
+      </div>
+      </div>
+   
+   <a href="contact.html">CONTACT</a> 
+
+   <div class="dropdown">
+    <button class="dropbtn">APPLY NOW
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">  
+        <a href="login.html">LOGIN</a>
+        <a href="form.html">IAST-ET</a>
+      </div>
+      </div> 
+
+   <div class="search-container">
+    <form action="/action_page.php">
+      <input type="text" placeholder="Search.." onclick="window.location.href='search.html'" name="search">
+      <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
+  </div>   
+  <div class="slideshow-container">
+
+<div class="iambrpslides fade">
+  <img src="./images/hal1.png">
+ </div>
+
+<div class="iambrpslides fade">
+  <img src="./images/iast1.jpeg">
+  </div>
+
+<div class="iambrpslides fade">
+  <img src="./images/campus2.jpg">
+</div>
+
+<div class="iambrpslides fade">
+  <img src="./images/iast2.jpg">
+</div>
+<div class="iambrpslides fade">
+  <img src="./images/iast3.jpg">
+</div>
+<div class="iambrpslides fade">
+  <img src="./images/iast4.jpg">
+</div>
+</div>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+</div>
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("iambrpslides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 3000); 
+}
+</script>
+<br>
+
+<script type="text/javascript">
+  document.title="About";
+</script>
+
+<script src="scripts/slider.js"></script>
+<div class="mainContent">
+  <div class="Content">
+    <article class="topContent">
+      <header>
+        <h2>About IAST</h2>
+      </header>
+      <content>
+<p> Indian Academy of Space Technology (IAST), situated at Darbhanga ,Bihar .IAST functions as an autonomous body under the Department of Space, Government of India. The idea of such an institute was mooted keeping in mind the need for high quality manpower for the Indian Space Research Organization, one of world’s leading scientific organizations engaged in space research and space applications. The institute is the first of its kind in the country, to offer high quality education at the undergraduate, graduate, doctoral and post-doctoral levels on areas with special focus to space sciences, space technology and space applications.
+</p>
+
+</content>
+    </article>
+
+    <article class="bottomContent">
+      <header>
+      <h3>Vision</h3>  
+      </header>
+      <content>
+
+<p> IAST offers various undergraduate,postgraduate programmes and PhD programmes in areas that are relevant to space studies. This acadmey offering various field which related to space .course offered as under graduate ,postgraduate and PhD with various field.  Admissions to these branches are merit based and intake is based on the Indian Academy of space Technology Entry Test(IAST-ET) conducted by IAST, as per the guidelines set by IAST. The major feature of the undergraduate program is the liberal offer of assistanceship to meritorious students, rendering the education “completely free”, subject to the students securing a stipulated minimum academic requirement. As performance based financial assistance is provided by DOS to the UG students of IAST, ISRO/DOS will have the first right to absorb them, subject to the vacancies notified by ISRO in that particular discipline and year for IAST graduates.
+
+Apart from this, IAST offers postgraduate programmes in fifteen areas of space science, space engineering and related areas.  The academic programmes have been formulated to strengthen the fundamentals, experience the realities through practical work, and enhance the knowledge and understanding in the areas relevant and related to space. Also, the programmes so envisaged ensure adequate exposure in the emerging fields which will lead to experience knowledge synthesis.
+ 
+The institute recognizes the importance of research in developing future technologies and applications of space research. IAST encourages all its faculty members to guide and supervise young scholars for the PhD programme as well as for Post-Doctoral programmes. It also supports the research needs of faculty members by funding research projects directly. The institute provides for the publication charges of peer reviewed journal papers that are published by faculty, research scholars and students of the institute. IIST also encourages its faculty to closely collaborate with scientists/engineers from ISRO/DoS through joint research projects funded by the institute. IAST also encourages its faculty to write research proposals for funding from external sources. IAST also has a number of international collaborations, both as MOU at the level of institute and faculty-to-faculty collaboration.
+</p>
+</content>
+</article>
+</div>
+</div>
+<footer class="mainFooter">
+<p>Terms & Conditions | Privacy Policy | Site Map | Timeline | FAQ | Disclaimer | Careers | Feedback | Contact US | Help </p>
+  <p>Developed by Ravi</p>
+  <center>
+  <a href="https://www.facebook.com/profile.php?id=100009642224792">Facebook</a>
+  <a href="https://www.twitter.com/ravi_k16/">Twitter</a>
+  <a href="https://www.youtube.com/channel/UC10dwVy3c_cBb94VJHtMdiQ?view_as=subscriber">Youtube</a>
+  <a href="https://outlook.live.com/owa/#">Outlook</a>
+  </center>
+</footer>
+</footer>
+</body>
+</html>

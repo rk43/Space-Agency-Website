@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="javascript/form.js"></script>
+  <h1>INDIAN ACADEMY OF SPACE TECHNOLOGY ENTRY TEST (IAST-ET)</h1>
+<h2>APPLICATION FORM</h2>
+</head>
+<body>
+<style>
+h1{
+color:blue;
+}
+input[type=text], select {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit],input[type=reset] {
+  width: 50%;
+  background-color: green;
+  color: white;
+  padding: 10px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover,input[type=reset]:hover {
+  background-color: blue;
+}
+
+div {
+  border-radius: 5px;
+  background-color: lightgray;
+  padding: 20px;
+}
+</style>
+
+<div>
+   <form id="form_id" method="post" name="myform">
+    <lable for="cname">Candidate Name</label></br>
+    <input type="text" id="cname" name="cname" placeholder="Name....." required><br/>
+    
+    <lable for="fname">Father Name</label></br>
+    <input type="text" id="fname" name="lastname" placeholder="Father Name....." required><br/>
+   
+    <lable for="email">Email</label></br>
+    <input type="text" id="email" placeholder="Email..." required><br/>
+    
+    <lable for="mnumber">Mobile Number</label></br>
+    <input type="text" id="mobile number" placeholder="Mobile Number...." required></br>
+    <lable for="address">Address</label></br>
+    <input type="text" id="address" placeholder="Address......" required></br>
+  
+   <label for="State">State</label></br>
+    <select id="state">
+    <option value="bihar">Bihar</option>
+    <option value="delhi">Delhi</option>
+    <option value="punjab">Punjab</option>
+    <option value="karnataka">Karnataka</option>
+    <option value="maharastra">Maharastra</option>
+    <option value="haryana">Haryana</option>
+    <option value="assam">Assam</option>
+    <option value="arunachal pradesh">Arunachal Pradesh</option>
+    <option value="himachal pradesh">Himachal Pradesh</option>
+    <option value="mizoram">Mizoram</option>
+    <option value="westbengal">West Bengal</option>
+    <option value="gujarat">Gujarat</option>
+    <option value="kerala">Kerala</option>
+    <option value="tamilnadu">Tamil Nadu</option>
+    </select>
+<br/>
+    <label for="course">Course</label><br/>
+    <select id="course" name="course">
+      <option value="b.tech">UG</option>
+      <option value="b.arch">PG</option>
+      <option value="m.tech">PhD</option>
+      
+    </select>
+<br/>
+    <label for="branch">Branch</label></br>
+    <select id="branch" name="branch">
+      <option value="#">Space Technology</option>
+      <option value="#">Maintenance</option>
+      <option value="#">Manufacturing</option>
+      <option value="#">Avionics</option>
+      <option value="#">Physics</option>
+      <option value="#">Chemistry</option>
+      <option value="#">Mathematics</option>
+      <option value="#">Aerodynamics Design</option>
+      <option Value="#">computer </option>
+      <option value="#">Electronics</option>
+      <option value="#">Communications</option>
+     </select>
+   
+    <input type="submit" value="Submit" onclick="validate()"/>
+    <input type="reset" value="reset"/>
+  </form>
+</div>
+
+</body>
+</html>
+
